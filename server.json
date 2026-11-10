@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheCompanyAtlas/germany-handelsregister",
+  "title": "Germany Company Registry (Handelsregister)",
+  "description": "German Handelsregister company search with Geschäftsführer, Prokuristen and shareholders.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/TheCompanyAtlas/germany-handelsregister-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thecompanyatlas.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thecompanyatlas.com/mcp/company/germany"
+    }
+  ]
+}
